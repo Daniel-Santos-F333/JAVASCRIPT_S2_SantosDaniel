@@ -30,6 +30,18 @@ if(booleanito1 == true){
     console.log("No es verdadero :(")
 }
 
+//Bucles
+
+for(i=0;i<4;i=i+1) {
+    console.log("wenas")
+}
+
+holi=true
+while(holi==true) {
+    console.log("Wenas")
+    holi=false
+}
+
 //Funciones
 function funcionsita(fahrenheit) {
     return(5/9) * (fahrenheit-32);
