@@ -1,14 +1,41 @@
 function mostrarMenuPrincipal() {
-    console.log("=============================================");
-    console.log("              Menu Principal                ");
-    console.log("=============================================");
-    console.log("Seleccione una opción:");
-    console.log("1. Registrar nuevo gasto");
-    console.log("2. Listar gastos");
-    console.log("3. Calcular total de gastos");
-    console.log("4. Generar reporte de gastos");
-    console.log("5. Salir");
-    console.log("=============================================");
+    let Menu1 = `=============================================
+                            Simulador de Gasto Diario
+=============================================
+Seleccione una opción:
+
+1.Registrar nuevo gasto
+2.Listar gastos
+3.Calcular total de gastos
+4.Generar reporte de gastos
+5.Salir
+=============================================`;
+    let opcionMenu1 = prompt(Menu1);
+
+    if (opcionMenu1 === 1) {
+        mostrarMenuRegistro()
+    }
 }
 
-mostrarMenuPrincipal()
+function registroGasto() {
+
+let registroGastos = []
+
+let gastoRegistro = `=============================================
+                                Registrar Nuevo Gasto
+=============================================
+Ingrese la información del gasto:
+
+Monto del gasto:
+=============================================`;
+let monto = prompt(gastoRegistro);
+
+let categoriaRegistro = `=============================================
+Registrar Nuevo Gasto
+=============================================
+Ingrese la información del gasto:
+
+Categoría (ej. comida, transporte, entretenimiento, otros):
+=============================================`;
+let categoria = prompt(categoriaRegistro);
+}
