@@ -19,7 +19,7 @@ Seleccione una opción:
 
 function registroGasto() {
 
-let registroGastos = []
+let registroGastos = 
 
 let gastoRegistro = `=============================================
                                 Registrar Nuevo Gasto
@@ -38,4 +38,21 @@ Ingrese la información del gasto:
 Categoría (ej. comida, transporte, entretenimiento, otros):
 =============================================`;
 let categoria = prompt(categoriaRegistro);
+
+let descripcionRegistro = `=============================================
+Registrar Nuevo Gasto
+=============================================
+Ingrese la información del gasto:
+
+Descripción (Opcional):
+=============================================`;
+
+let descripcion = prompt(descripcionRegistro);
+
+let datosRegistrados = { "monto": monto, "categoria": categoria, "descripcion": descripcion
 }
+
+registroGastos.push(datosRegistrados)
+}
+
+console.table(registroGastos);
