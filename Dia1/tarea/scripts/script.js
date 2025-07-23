@@ -19,8 +19,6 @@ Seleccione una opción:
 
 function registroGasto() {
 
-let registroGastos = 
-
 let gastoRegistro = `=============================================
                                 Registrar Nuevo Gasto
 =============================================
