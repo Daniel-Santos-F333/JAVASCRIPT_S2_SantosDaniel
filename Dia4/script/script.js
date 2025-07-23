@@ -36,7 +36,9 @@ if (opcionUsuario2 === 1) {}
 else if (opcionUsuario2 === 2) {}
 else if (opcionUsuario2 === 3) {}
 else if (opcionUsuario2 === 4) {}
-else if (opcionUsuario2 === 5) {}
+else if (opcionUsuario2 === 5) {
+    menuPrincipal
+}
 }
 
 function menuCategorias () {
@@ -57,7 +59,9 @@ if (opcionUsuario3 === 1) {}
 else if (opcionUsuario3 === 2) {}
 else if (opcionUsuario3 === 3) {}
 else if (opcionUsuario3 === 4) {}
-else if (opcionUsuario3 === 5) {}
+else if (opcionUsuario3 === 5) {
+    menuPrincipal
+}
 }
 
 function menuHamburguesas () {
@@ -76,4 +80,32 @@ Seleccione una opción:
 let opcionUsuario4 = prompt(cuartoMenu)
 if (opcionUsuario4 === 1) {}
 else if (opcionUsuario4 === 2) {}
+else if (opcionUsuario4 === 3) {}
+else if (opcionUsuario4 === 4) {}
+else if (opcionUsuario4 === 5) {
+    menuPrincipal
+}
+}
+
+function menuChefs () {
+    let quintoMenu = `=============================================
+                Chefs
+=============================================
+Seleccione una opción:
+
+1.registrar nuevo chef
+2.Visualizar chefs
+3.Actualizar chef
+4.Eliminar chef
+5.Volver al menu principal
+=============================================`;
+
+let opcionUsuario5 = prompt(quintoMenu)
+if (opcionUsuario5 === 1) {}
+else if (opcionUsuario5 === 2) {}
+else if (opcionUsuario5 === 3) {}
+else if (opcionUsuario5 === 4) {}
+else if (opcionUsuario5 === 5) {
+    menuPrincipal
+}
 }
