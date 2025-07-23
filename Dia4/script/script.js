@@ -12,10 +12,18 @@ Seleccione una opción:
 =============================================`;
 let opcionUsuario1 = prompt (primerMenu)
 
-if (opcionUsuario1 === 1) {}
-else if (opcionUsuario1 === 2) {}
-else if (opcionUsuario1 === 3) {}
-else if (opcionUsuario1 === 4) {}
+if (opcionUsuario1 === 1) {
+    menuIngredientes.segundoMenu();
+}
+else if (opcionUsuario1 === 2) {
+    menuCategorias
+}
+else if (opcionUsuario1 === 3) {
+    menuHamburguesas
+}
+else if (opcionUsuario1 === 4) {
+    menuChefs
+}
 else if (opcionUsuario1 === 5) {}
 }
 function menuIngredientes () {
@@ -109,3 +117,5 @@ else if (opcionUsuario5 === 5) {
     menuPrincipal
 }
 }
+
+menuPrincipal()
