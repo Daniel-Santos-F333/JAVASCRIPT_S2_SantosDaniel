@@ -1,6 +1,6 @@
 function menuPrincipal () {
     let primerMenu = `=============================================
-    Sisema Gestión de Inventario
+                        Sisema Gestión de Inventario
 =============================================
 Seleccione una opción:
 
@@ -10,25 +10,27 @@ Seleccione una opción:
 4.Chefs
 5.Salir
 =============================================`;
-let opcionUsuario1 = prompt (primerMenu)
+
+let opcionUsuario1 = parseInt(prompt (primerMenu));
 
 if (opcionUsuario1 === 1) {
-    menuIngredientes.segundoMenu();
+    menuIngredientes();
 }
-else if (opcionUsuario1 === 2) {
-    menuCategorias
+else if(opcionUsuario1 === 2) { 
+    menuCategorias()
 }
 else if (opcionUsuario1 === 3) {
-    menuHamburguesas
+    menuHamburguesas()
 }
 else if (opcionUsuario1 === 4) {
-    menuChefs
+    menuChefs()
 }
 else if (opcionUsuario1 === 5) {}
 }
+
 function menuIngredientes () {
     let segundoMenu = `=============================================
-                Ingredientes
+                                        Ingredientes
 =============================================
 Seleccione una opción:
 
@@ -39,19 +41,19 @@ Seleccione una opción:
 5.Volver al menu principal
 =============================================`;
 
-let opcionUsuario2 = prompt(segundoMenu);
+let opcionUsuario2 = parseInt(prompt(segundoMenu));
 if (opcionUsuario2 === 1) {}
 else if (opcionUsuario2 === 2) {}
 else if (opcionUsuario2 === 3) {}
 else if (opcionUsuario2 === 4) {}
 else if (opcionUsuario2 === 5) {
-    menuPrincipal
+    menuPrincipal()
 }
 }
 
 function menuCategorias () {
     let tercerMenu = `=============================================
-                Categorias
+                                        Categorias
 =============================================
 Seleccione una opción:
 
@@ -62,19 +64,19 @@ Seleccione una opción:
 5.Volver al menu principal
 =============================================`;
 
-let opcionUsuario3 = prompt(tercerMenu)
+let opcionUsuario3 = parseInt(prompt(tercerMenu))
 if (opcionUsuario3 === 1) {}
 else if (opcionUsuario3 === 2) {}
 else if (opcionUsuario3 === 3) {}
 else if (opcionUsuario3 === 4) {}
 else if (opcionUsuario3 === 5) {
-    menuPrincipal
+    menuPrincipal()
 }
 }
 
 function menuHamburguesas () {
     let cuartoMenu = `=============================================
-                Hamburguesas
+                                    Hamburguesas
 =============================================
 Seleccione una opción:
 
@@ -85,19 +87,19 @@ Seleccione una opción:
 5.Volver al menu principal
 =============================================`;
 
-let opcionUsuario4 = prompt(cuartoMenu)
+let opcionUsuario4 = parseInt(prompt(cuartoMenu))
 if (opcionUsuario4 === 1) {}
 else if (opcionUsuario4 === 2) {}
 else if (opcionUsuario4 === 3) {}
 else if (opcionUsuario4 === 4) {}
 else if (opcionUsuario4 === 5) {
-    menuPrincipal
+    menuPrincipal()
 }
 }
 
 function menuChefs () {
     let quintoMenu = `=============================================
-                Chefs
+                                            Chefs
 =============================================
 Seleccione una opción:
 
@@ -108,13 +110,13 @@ Seleccione una opción:
 5.Volver al menu principal
 =============================================`;
 
-let opcionUsuario5 = prompt(quintoMenu)
+let opcionUsuario5 = parseInt(prompt(quintoMenu))
 if (opcionUsuario5 === 1) {}
 else if (opcionUsuario5 === 2) {}
 else if (opcionUsuario5 === 3) {}
 else if (opcionUsuario5 === 4) {}
 else if (opcionUsuario5 === 5) {
-    menuPrincipal
+    menuPrincipal()
 }
 }
 
