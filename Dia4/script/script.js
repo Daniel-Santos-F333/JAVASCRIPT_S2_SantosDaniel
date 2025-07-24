@@ -100,7 +100,13 @@ else if (opcionUsuario1 === 3) {
 else if (opcionUsuario1 === 4) {
     menuChefs()
 }
-else if (opcionUsuario1 === 5) {}
+else if (opcionUsuario1 === 5) {
+    alert("Saliendo...")
+}
+else {
+    alert("Verifique la opción ingresada")
+    menuPrincipal()
+}
 }
 
 function menuIngredientes () {
