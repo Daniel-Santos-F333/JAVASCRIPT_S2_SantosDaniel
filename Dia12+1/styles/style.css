@@ -1,0 +1,12 @@
+body{
+    background-color: burlywood;
+    justify-items: center;
+}
+
+.sobreBody{ 
+    justify-items: center;
+}
+#buscador {
+    height: 3vi;
+    width: 25vi;
+}
