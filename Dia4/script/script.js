@@ -74,40 +74,43 @@ let JsonChefs = [
 ]
 
 function menuPrincipal () {
-    let primerMenu = `=============================================
-                        Sisema Gestión de Inventario
-=============================================
-Seleccione una opción:
+    let boleano =true 
+    while (boleano =true ){let primerMenu = `=============================================
+        Sisema Gestión de Inventario
+    =============================================
+    Seleccione una opción:
 
-1.Ingredientes
-2.Categorias
-3.Hamburguesas
-4.Chefs
-5.Salir
-=============================================`;
+    1.Ingredientes
+    2.Categorias
+    3.Hamburguesas
+    4.Chefs
+    5.Salir
+    =============================================`;
 
-let opcionUsuario1 = parseInt(prompt (primerMenu));
+    let opcionUsuario1 = parseInt(prompt (primerMenu));
 
-if (opcionUsuario1 === 1) {
+    if (opcionUsuario1 === 1) {
     menuIngredientes();
-}
-else if(opcionUsuario1 === 2) { 
+    }
+    else if(opcionUsuario1 === 2) { 
     menuCategorias()
-}
-else if (opcionUsuario1 === 3) {
+    }
+    else if (opcionUsuario1 === 3) {
     menuHamburguesas()
-}
-else if (opcionUsuario1 === 4) {
+    }
+    else if (opcionUsuario1 === 4) {
     menuChefs()
-}
-else if (opcionUsuario1 === 5) {
-    alert("Saliendo...")
-}
-else {
+    }
+    else if (opcionUsuario1 === 5) {
+        boleano=false
+        alert("Saliendo...")
+    }
+    else {
     alert("Verifique la opción ingresada")
-    menuPrincipal()
+    
 }
-}
+}}
+    
 
 function menuIngredientes () {
     let segundoMenu = `=============================================
